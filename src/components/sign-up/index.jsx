@@ -66,7 +66,7 @@ class SignUp extends Component {
           />
 
           <FormInput
-            type="passworod"
+            type="password"
             name="password"
             value={password}
             label="Password"
