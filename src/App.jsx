@@ -1,6 +1,6 @@
 import "./App.css";
 import { Component } from "react";
-import { setCurrentUser } from "./redux/user/userActions";
+import { setCurrentUser } from "./redux/user/user.actions";
 
 import { connect } from "react-redux";
 import Home from "./pages/home/";
