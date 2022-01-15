@@ -1,6 +1,5 @@
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import CartItem from '../../components/cart-item';
 import CheckoutItem from '../../components/checkout-item';
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 import "./checkout.scss";
